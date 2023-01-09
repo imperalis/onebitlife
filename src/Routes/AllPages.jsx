@@ -1,7 +1,7 @@
-import { NavigationContainer } from "@react-navigation/native";
+import { NavigationContainer, StackActions } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import Stack from "../Pages/Start";
+import Start from "../Pages/Start";
 
 const Stack = createNativeStackNavigator();
 
